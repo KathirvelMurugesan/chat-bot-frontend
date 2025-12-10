@@ -27,7 +27,7 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:8000/mcp/infer', {
+      const response = await axios.post('https://chat-bot-backend-pfvc.onrender.com/mcp/infer', {
         prompt: input,
       });
 
